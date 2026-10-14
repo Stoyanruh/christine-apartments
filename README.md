@@ -24,4 +24,5 @@ Contact on site: christineapartments@outlook.com (email only, by owner's choice)
 - Removed by owner: phone number, texting/SMS program section, texting consent, resident services section.
 - Kept: privacy-policy line that mobile numbers are not shared for marketing (carriers check for it).
 - Legal name shown: "526 Niagara LLC" – must match the EIN letter used for registration.
-- Hosting: GitHub Pages, public repo. DNS: apex A records to GitHub Pages IPs, `www` CNAME to `stoyanruh.github.io`.
+- Domain: christineapartments.com, registered at IONOS on 2026-10-14 ($1 first year, then about $20/year). DNS is managed at IONOS.
+- Hosting: GitHub Pages from `main` / root, HTTPS enforced. DNS at IONOS: four `A @` records (185.199.108.153, .109.153, .110.153, .111.153) and `CNAME www` to `stoyanruh.github.io`. IONOS mail records (MX, SPF, DKIM, DMARC) were left in place.
